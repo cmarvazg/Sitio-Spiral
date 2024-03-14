@@ -120,6 +120,16 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+h2, .h2{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #212529;
+  padding: 0.5rem;
+}
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -10947,7 +10957,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  position: relative; /* Asegúrate de que el elemento sea relativo para que el elemento ::after sea relativo a él */
+  position: relative; 
   background-image: url("../assets/img/background.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10963,8 +10973,8 @@ header.masthead::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #212529; /* Color del filtro */
-  opacity: 0.2; /* Ajusta la opacidad del filtro según lo necesites */
+  background-color: #212529; 
+  opacity: 0.2; 
 }
 
 header.masthead .masthead-subheading {
